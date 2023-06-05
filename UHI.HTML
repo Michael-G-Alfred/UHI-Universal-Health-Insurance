@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UHI - Universal Health Insurance</title>
+    <link
+      rel="shortcut icon"
+      href="Assets/UHI-Logo.svg"
+      class="shortcut-icon"
+    />
+    <link rel="stylesheet" href="UHI-style.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Petrona:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- NAV-LINKS -->
+      <div class="nav-container">
+        <div class="logo-container">
+          <a href="UHI.HTML">
+            <img
+              src="Assets/UHI-Logo.svg"
+              alt="UHI - Universal Health Insurance"
+              style="width: auto; height: 100%; object-fit: cover"
+            />
+          </a>
+        </div>
+        <ul class="links-container">
+          <!--List-->
+          <li class="nav-links"><a href="UHI.HTML">Home</a></li>
+          <li class="nav-links" id="content-link">
+            <a href="">Content <span class="symbol">&#x25BC;</span></a>
+            <!-- DROP_DOWN LIST -->
+            <ul class="dropdown-links">
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Articles</a></li>
+              <li><a href="">Posts</a></li>
+              <li><a href="">Videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-links"><a href="">About</a></li>
+          <li class="nav-links"><a href="">Services</a></li>
+        </ul>
+        <div class="nav-icons-container">
+          <button>
+            <img
+              src="Assets/Bell-icon.svg"
+              alt="Bell-icon"
+              style="width: auto; height: 100%; object-fit: cover"
+            />
+          </button>
+          <button>
+            <img
+              src="Assets/Plus-icon.svg"
+              alt="Plus-icon"
+              style="width: auto; height: 100%; object-fit: cover"
+            />
+          </button>
+          <button>
+            <img
+              src="Assets/User-icon.svg"
+              alt="User-icon"
+              style="width: auto; height: 100%; object-fit: cover"
+            />
+          </button>
+        </div>
+        <div class="burger-container">
+          <input
+            type="checkbox"
+            id="burger-toogle"
+            class="burger-container__checkbox"
+          />
+          <label class="burger-container__label" for="burger-toogle">
+            <img
+              src="Assets/Menu-icon.svg"
+              alt="User-icon"
+              style="width: auto; height: 100%; object-fit: cover"
+            />
+          </label>
+          <div class="burger-container__background">
+            <ul class="burger-container__list">
+              <li class="burger-container__item">
+                <a href="UHI.HTML">Home</a>
+              </li>
+              <li class="burger-container__item"><a href="#">Content</a></li>
+              <li class="burger-container__item"><a href="#">About</a></li>
+              <li class="burger-container__item"><a href="#">Services</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <section class="hero-container" id="hero">
+        <div class="hero-container_text-container_A">
+          <h1>التأمين الصحى الشامل</h1>
+        </div>
+        <div class="hero-container_text-container_E">
+          <h1>Universal Health Insurance</h1>
+        </div>
+        <div class="hero-container_buttons-container">
+          <button
+            class="button__primary--default--large animation--pulse animation--moveinbottom"
+          >
+            <a href="#popup-registration">
+              Registration Here <span class="symbol">&#9654;</span>
+            </a>
+          </button>
+        </div>
+      </section>
+      <section class="container1">
+        <div class="container_top">
+          <div class="container_top_title">
+            <h1>branches</h1>
+          </div>
+          <div class="container_top_subtitle">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              ipsum fugit animi necessitatibus.
+            </p>
+          </div>
+        </div>
+        <div class="container_bottom">
+          <div class="branch-container_item">
+            <div class="branch-container_item_image">
+              <img src="Assets/Port-Said-Egypt.jpg" alt="Image" />
+            </div>
+            <div class="branch-container_item_title">
+              <button type="submit">Port Said</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Cairo</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image">
+              <img src="Assets/Alexandria-Egypt.jpg" alt="Image" />
+            </div>
+            <div class="branch-container_item_title">
+              <button type="submit">Alexandria</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Ismailia</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Suez</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Hurghada</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Damietta</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Asyut</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image"></div>
+            <div class="branch-container_item_title">
+              <button type="submit">Sohag</button>
+            </div>
+          </div>
+          <div class="branch-container_item">
+            <div class="branch-container_item_image">
+              <img src="Assets/Luxor-Egypt.jpg" alt="Image" />
+            </div>
+            <div class="branch-container_item_title">
+              <button type="submit">Luxor</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container2">
+        <div class="container_top">
+          <div class="container_top_title">
+            <h1>doctors</h1>
+          </div>
+          <div class="container_top_subtitle">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              ipsum fugit animi necessitatibus.
+            </p>
+          </div>
+        </div>
+        <div class="container_bottom">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="Assets/Photo.JPG"
+                  alt="Image"
+                  style="width: auto; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="flip-card-back">
+                <div class="flip-card-back_item_icon">
+                  <img
+                    src="Assets/Profile-icon.svg"
+                    alt="Image"
+                    style="width: auto; height: 100%; object-fit: cover"
+                  />
+                </div>
+                <h1>Doctor Name</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                  ipsum fugit animi necessitatibus.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="footer-container_top">
+        <a href="UHI.HTML" class="footer-container_top_logo-container">
+          <img
+            src="Assets/UHI-Logo.svg"
+            alt="UHI - Universal Health Insurance"
+          />
+        </a>
+      </div>
+      <div class="footer-container_middle_a">
+        <h5>About US</h5>
+        <div class="footer-container_middle_a_data">
+          <p>
+            We are a company that provides high quality products and services to
+            our customers.
+          </p>
+        </div>
+      </div>
+      <div class="footer-container_middle_b">
+        <h5>Quick Links</h5>
+        <div class="footer-container_middle_b_data">
+          <p><a href="#">Link 1</a></p>
+          <p><a href="#">Link 2</a></p>
+          <p><a href="#">Link 3</a></p>
+        </div>
+      </div>
+      <div class="footer-container_middle_c">
+        <h5>Contact Us</h5>
+        <div class="footer-container_middle_c_data">
+          <p>
+            <a href="mailto: Michoolgeorge@gmail.com"
+              >Email: Michoolgeorge@gmail.com</a
+            >
+          </p>
+          <p>
+            <a target="_blank" href="https://wa.me/+201276427075"
+              >Phone: +20 127 6427 075</a
+            >
+          </p>
+          <p>Address: Kadsya St, Port Said, Egypt</p>
+        </div>
+      </div>
+      <div class="footer-container_middle_d">
+        <h5>Follow Us</h5>
+        <div class="footer-container_middle_d_data">
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.facebook.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Facebook-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.youtube.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Youtube-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.instagram.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Instgram-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.twitter.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Twitter-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.linkedin.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Linkedin-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.tiktok.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Tiktok-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.behance.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_Behance-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+          <div class="footer-container_middle_d_data_img-container">
+            <a href="https://www.github.com/" target="parent">
+              <img
+                src="Assets/Social icons/Social Icons_GitHub-icon.svg"
+                alt=""
+                style="width: auto; height: 100%; object-fit: cover"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-container_bottom">
+        <p>&copy; 2023 MyCompany. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <div class="popup-registration" id="popup-registration">
+      <form class="form-container">
+        <div class="form-container__top">
+          <h1 class="form-container__title">Registration</h1>
+          <a
+            href="#hero"
+            class="form-container__close button__error--default--large"
+            >&times;</a
+          >
+        </div>
+
+        <div class="form-container__inputs">
+          <div class="input--large">
+            <input
+              type="text"
+              placeholder="Full Name"
+              required
+              id="input--large-fullname"
+              class="input--large_input"
+              name="Full Name"
+            />
+            <label for="input--large-fullname" class="input--large_label"
+              >Full Name</label
+            >
+          </div>
+          <div class="input--large">
+            <input
+              type="email"
+              placeholder="Email"
+              required
+              id="input--large-email"
+              class="input--large_input"
+              name="Emai"
+            />
+            <label for="input--large-email" class="input--large_label"
+              >Email</label
+            >
+          </div>
+          <div class="input--large">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              id="input--large-password"
+              class="input--large_input"
+              name="Password"
+              value=""
+              minlength="10"
+            />
+            <label for="input--large-password" class="input--large_label"
+              >Password</label
+            >
+          </div>
+        </div>
+        <div class="form-container__checkbox-group">
+          <input
+            id="input--large-checkbox"
+            type="checkbox"
+            name="Accept"
+            value="Accept"
+            required
+            class="form-container__checkbox"
+          />
+          <label for="input--large-checkbox" class="form-container__label"
+            >I agree The Designership design system is lit.</label
+          >
+        </div>
+
+        <div class="radio-container">
+          <div class="radio-group">
+            <input id="radio-1" name="radio" type="radio" required />
+            <label for="radio-1" class="radio-label">A</label>
+          </div>
+
+          <div class="radio-group">
+            <input id="radio-2" name="radio" type="radio" required />
+            <label for="radio-2" class="radio-label">B</label>
+          </div>
+          <div class="radio-group">
+            <input id="radio-3" name="radio" type="radio" required />
+            <label for="radio-3" class="radio-label">C</label>
+          </div>
+        </div>
+
+        <div class="form-container__buttons">
+          <button class="button__primary--default--large" type="submit">
+            Done
+          </button>
+          <button class="button__primary--ghost--large" type="reset">
+            Delete
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+:root {
+  font-size: 62.5%;
+  --Fonts-H1: 7.9rem;
+  --Fonts-H2: 4.9rem;
+  --Fonts-H3: 3.9rem;
+  --Fonts-H4: 2.8rem;
+  --Fonts-H5: 2rem;
+  --Fonts-H6: 1.6rem;
+  --Fonts-sub1: 1.3rem;
+  --Fonts-sub2: 1.1rem;
+  --Fonts-P3: 1.8rem;
+  --Fonts-P2: 1.6rem;
+  --Fonts-P1: 1.4rem;
+  --Fonts-Caption: 1.2rem;
+  --Fonts-Footer: 1rem;
+}

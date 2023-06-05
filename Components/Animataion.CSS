@@ -1,0 +1,197 @@
+@-webkit-keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-6.25rem);
+  }
+
+  80% {
+    transform: translateX(0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-6.25rem);
+  }
+
+  80% {
+    transform: translateX(0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes moveinright {
+  0% {
+    opacity: 0;
+    transform: translateX(6.25rem);
+  }
+
+  80% {
+    transform: translateX(-0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveinright {
+  0% {
+    opacity: 0;
+    transform: translateX(6.25rem);
+  }
+
+  80% {
+    transform: translateX(-0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes moveinbottom {
+  0% {
+    opacity: 0;
+    transform: translateY(0.3125rem);
+  }
+
+  80% {
+    transform: translateY(-0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveinbottom {
+  0% {
+    opacity: 0;
+    transform: translateY(0.3125rem);
+  }
+
+  80% {
+    transform: translateY(-0.625rem);
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    font-weight: 300;
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  50% {
+    font-weight: 500;
+    opacity: 0.6;
+  }
+  100% {
+    font-weight: 700;
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  @-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 0.35em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+  @keyframes tracking-in-contract {
+    0% {
+      font-weight: 300;
+      letter-spacing: 0.35em;
+      opacity: 0;
+    }
+    50% {
+      font-weight: 500;
+      opacity: 0.6;
+    }
+    100% {
+      font-weight: 700;
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+}
+
+.animation--pulse,
+.animation--pulse:link,
+.animation--pulse:visited {
+  position: relative;
+  backface-visibility: hidden;
+  isolation: isolate;
+}
+
+.animation--pulse::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  border-radius: inherit;
+  z-index: -1;
+  transition: all 0.5s;
+}
+.animation--pulse:hover::after {
+  transform: scale(1.6, 1.8);
+  opacity: 0;
+}
+
+.animation--moveinbottom,
+.animation--moveinbottom:link,
+.animation--moveinbottom:visited {
+  -webkit-animation: moveinbottom 0.5s ease-out 0.5s backwards;
+  animation: moveinbottom 0.5s ease-out 0.5s backwards;
+}

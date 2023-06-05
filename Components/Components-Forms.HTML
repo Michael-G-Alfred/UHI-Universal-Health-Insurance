@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Components-Forms</title>
+    <link rel="stylesheet" href="Components-Forms.CSS" />
+  </head>
+  <body>
+    <form class="form-container">
+      <h1 class="form-container__title">Registration</h1>
+      <div class="form-container__inputs">
+        <div class="input--large">
+          <input
+            type="text"
+            placeholder="Full Name"
+            required
+            id="input--large-fullname"
+            class="input--large_input"
+            name="Full Name"
+          />
+          <label for="input--large-fullname" class="input--large_label"
+            >Full Name</label
+          >
+        </div>
+        <div class="input--large">
+          <input
+            type="email"
+            placeholder="Email"
+            required
+            id="input--large-email"
+            class="input--large_input"
+            name="Emai"
+          />
+          <label for="input--large-email" class="input--large_label"
+            >Email</label
+          >
+        </div>
+        <div class="input--large">
+          <input
+            type="password"
+            placeholder="Password"
+            required
+            id="input--large-password"
+            class="input--large_input"
+            name="Password"
+            value=""
+            minlength="10"
+          />
+          <label for="input--large-password" class="input--large_label"
+            >Password</label
+          >
+        </div>
+      </div>
+      <div class="form-container__checkbox-group">
+        <input
+          id="input--large-checkbox"
+          type="checkbox"
+          name="Accept"
+          value="Accept"
+          required
+          class="form-container__checkbox"
+        />
+        <label for="input--large-checkbox"
+          >I agree The Designership design system is lit.</label
+        >
+      </div>
+
+      <div class="radio-container">
+        <div class="radio-group">
+          <input id="radio-1" name="radio" type="radio" required />
+          <label for="radio-1" class="radio-label">A</label>
+        </div>
+
+        <div class="radio-group">
+          <input id="radio-2" name="radio" type="radio" required />
+          <label for="radio-2" class="radio-label">B</label>
+        </div>
+        <div class="radio-group">
+          <input id="radio-3" name="radio" type="radio" required />
+          <label for="radio-3" class="radio-label">C</label>
+        </div>
+      </div>
+
+      <div class="form-container__buttons">
+        <button
+          class="button__primary--default--large animation--pulse"
+          type="submit"
+        >
+          Done
+        </button>
+        <button class="button__error--ghost--large" type="reset">Cancel</button>
+      </div>
+    </form>
+  </body>
+</html>

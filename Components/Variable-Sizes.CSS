@@ -1,0 +1,20 @@
+:root {
+  font-size: 62.5%;
+  --Sizes-2px: 0.2rem;
+  --Sizes-4px: 0.4rem;
+  --Sizes-6px: 0.6rem;
+  --Sizes-8px: 0.8rem;
+  --Sizes-16px: 1.6rem;
+  --Sizes-24px: 2.4rem;
+  --Sizes-32px: 3.2rem;
+  --Sizes-36px: 3.6rem;
+  --Sizes-40px: 4rem;
+  --Sizes-44px: 4.4rem;
+  --Sizes-48px: 4.8rem;
+  --Sizes-52px: 5.2rem;
+  --Sizes-56px: 5.6rem;
+  --Sizes-64px: 6.4rem;
+  --Sizes-72px: 7.2rem;
+  --Sizes-80px: 8rem;
+  --Sizes-120px: 12rem;
+}
